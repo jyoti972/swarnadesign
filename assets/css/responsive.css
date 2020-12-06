@@ -1,0 +1,82 @@
+@media only screen and (max-width: 992px) {
+body {
+	font-size: 15px;
+}
+p {
+	line-height: 22px;
+}
+.red-btn {
+	font-size: 13px;
+	padding: 6px 16px 7px 16px;
+}
+.h-right {
+	display:none;
+}
+.navbar-nav .nav-link {
+	color:#222;
+	padding: 0.4rem 1rem;
+}
+.test-grid {
+	grid-template-columns: repeat(1, 1fr);
+	grid-gap: 20px;
+}
+.logo-md {
+	display:none;
+}
+.logo-xs {
+	display:block;
+}
+.m-heading {
+	font-size: 24px;
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+.m-heading span {
+	font-size: 15px;
+}
+.about-c {
+	margin-top: 30px;
+}
+.services ul li {
+	width: 100%;
+	min-height: auto;
+	padding: 25px;
+}
+.services ul li span {
+	font-size: 17px;
+	width: 59%;
+}
+.services ul li span b {
+	font-size: 15px;
+}
+.i-banner h1 {
+	font-size: 26px;
+	margin: 35px 0px 32px 0px;
+}
+.i-h-2 {
+	font-size: 19px;
+}
+.dropdown-menu::before {
+	display:none;
+}
+.photo-grid {
+	grid-template-columns: repeat(2, 1fr);
+}
+.carousel-caption {
+	display:none;
+}
+.video iframe {
+	height:200px;
+}
+}
+@media only screen and (max-width: 600px) {
+.newsletter, .footer {
+	display:none;
+}
+}
+/*Other Fixes*/
+@media (min-width: 1601px) and (max-width: 9999px) {
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+	width: 100%;
+}
+}

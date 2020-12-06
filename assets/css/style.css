@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:400,700');
+body {
+	font-family: 'Encode Sans Condensed', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #222;
+	float: left;
+	width: 100%;
+}
+ul {
+	padding: 0px;
+	margin: 0px;
+}
+ul, li {
+	display: block;
+}
+a, li, i, img, button, input, textarea {
+	transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-webkit-transition: all 0.3s ease 0s;
+	text-decoration: none;
+}
+input, textarea, select {
+	border: 1px #ddd solid;
+	padding: 8px 11px;
+	background: none;
+}
+input:focus, textarea:focus {
+	border-color: #81C426 !important;
+}
+button:hover, a:hover {
+	text-decoration: none;
+	cursor:pointer;
+}
+a:focus {
+	text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0px;
+	font-weight: normal;
+	float: left;
+	width: 100%;
+}
+p {
+	float: left;
+	width: 100%;
+	line-height: 26px;
+}
+strong {
+	font-weight: bold;
+}
+header, section, footer {
+	float: left;
+	width: 100%;
+}
+.red-btn {
+	float: left;
+	font-size: 14px;
+	background: #2ecc7a;
+	color: #fff;
+	padding: 9px 20px;
+	border: none;
+	text-transform: uppercase;
+}
+.red-btn:hover {
+	color: #fff;
+	background: #333;
+}
+.red-btn:focus {
+	background: #81C426;
+	color: #fff;
+}
+/*header*/
+header {
+	position: relative;
+	padding: 20px 0px 23px 0px;
+	border-bottom: 3px orange solid;
+}
+.h-right {
+	float: right;
+	position: absolute;
+	right: 16px;
+	top: -4px;
+	z-index: 1;
+}
+.h-right ul {
+	float: left;
+	width: 100%;
+}
+.h-right ul li {
+	float: left;
+	display: inline-block;
+}
+.h-right ul li a {
+	float: left;
+	width: 31px;
+	height: 31px;
+	color: orange;
+	border: 1px  orange solid;
+	text-align: center;
+	padding-top: 2px;
+	margin-left: 5px;
+}
+.h-right ul li a:hover {
+	background: #2ecc7a;
+	border-color: #2ecc7a;
+	color: #fff;
+}
+.h-right ul li:last-child a {
+	width: auto;
+	color: orange !important;
+	color: #fff;
+	border-color: orange;
+	padding: 1px 12px;
+	margin-left: 14px;
+}
+.logo-xs {
+	display:none;
+}
+/*end*/
+/*banner*/
+.banner {
+	background: #222;
+}
+.b-heading {
+	animation-delay: 0.2s;
+	-webkit-animation-delay: 0.2s;
+	-moz-animation-delay: 0.2s;
+	-o-animation-delay: 0.2s;
+	-moz-transition: none !important;
+}
+.b-caption {
+	animation-delay: 1.4s;
+	-webkit-animation-delay: 1.4s;
+	-moz-animation-delay: 1.4s;
+	-o-animation-delay: 1.4s;
+}
+/*about*/
